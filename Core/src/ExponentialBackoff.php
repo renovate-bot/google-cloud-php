@@ -93,7 +93,6 @@ class ExponentialBackoff
                 }
 
                 $delayFunction($calcDelayFunction($this->retryAttempt));
-                $this->retryAttempt++;
             }
         }
 
@@ -122,9 +121,11 @@ class ExponentialBackoff
     {
         if ($this->retryAttempt < $this->retries) {
             if (!$this->retryFunction) {
+                $this->retryAttempt++;
                 return true;
             }
             if (call_user_func($this->retryFunction, $exception)) {
+                $this->retryAttempt++;
                 return true;
             }
         }
