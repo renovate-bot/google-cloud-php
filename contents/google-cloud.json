@@ -44,6 +44,7 @@
         "cloud-scheduler",
         "cloud-secret-manager",
         "cloud-security-center",
+        "cloud-security-private-ca",
         "cloud-service-directory",
         "cloud-spanner",
         "cloud-speech",
@@ -56,6 +57,7 @@
         "cloud-videointelligence",
         "cloud-vision",
         "cloud-web-risk",
-        "cloud-web-security-scanner"
+        "cloud-web-security-scanner",
+        "cloud-workflows"
     ]
 }
