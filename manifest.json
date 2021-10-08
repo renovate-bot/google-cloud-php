@@ -1269,6 +1269,14 @@
             ]
         },
         {
+            "id": "cloud-document-ai",
+            "name": "google/cloud-document-ai",
+            "defaultService": "documentai/readme",
+            "versions": [
+                "master"
+            ]
+        },
+        {
             "id": "cloud-domains",
             "name": "google/cloud-domains",
             "defaultService": "domains/readme",
@@ -1454,6 +1462,14 @@
                 "v0.2.0",
                 "v0.1.1",
                 "v0.1.0",
+                "master"
+            ]
+        },
+        {
+            "id": "cloud-functions",
+            "name": "google/cloud-functions",
+            "defaultService": "functions/readme",
+            "versions": [
                 "master"
             ]
         },
@@ -1877,6 +1893,14 @@
             "defaultService": "networkmanagement/readme",
             "versions": [
                 "v0.1.0",
+                "master"
+            ]
+        },
+        {
+            "id": "cloud-network-security",
+            "name": "google/cloud-network-security",
+            "defaultService": "networksecurity/readme",
+            "versions": [
                 "master"
             ]
         },
